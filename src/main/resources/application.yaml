@@ -7,4 +7,6 @@ logging:
   level:
     com.yukikaze: info
     org.springframework: warn
+
+##es搜索引擎url地址以及端口号,同环境就http://localhost:9200
 esHttp: "http://124.223.0.216:9200"
