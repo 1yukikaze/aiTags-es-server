@@ -57,17 +57,17 @@ public class esService implements IEsService {
                         //反序列化
                         String englishTag = jsonDoc.getEnglishTag();
                         list.add(englishTag);
-                        log.info("查询成功");
                     }
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
             }
+            log.info("精准查询成功,返回结果:" + list);
             return list;
-        }else{
+        } else {
             //模糊查询
             SearchRequest request = new SearchRequest(indexName);
-            request.source().query(QueryBuilders.matchQuery("chineseTag",chineseTags));
+            request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags));
             //发送请求
             SearchResponse response;
             try {
@@ -86,7 +86,7 @@ public class esService implements IEsService {
                 //反序列化
                 String englishTag = jsonDoc.getEnglishTag();
                 list.add(englishTag);
-                log.info("查询成功");
+                log.info("模糊查询成功,返回结果:" + list);
             }
             return list;
         }
