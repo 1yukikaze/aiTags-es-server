@@ -31,7 +31,7 @@ PUT /es_translation_index
         "type": "text",
         "index": true,
         "analyzer": "text_analysis",
-        "search_analyzer": "ik_smart"
+        "search_analyzer": "ik_max_word"
       },
       "englishTag":{
         "type": "keyword",
