@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/index")
@@ -32,14 +33,19 @@ public class esController {
         return esService.getMatchTags(chineseTags);
     }
 
+    /**相关度检索
+     * 根据输入的中文长字符检索列出有相关性的tag标签
+     * @param chineseTags 中文字符串
+     * @return 返回中英文tag集合
+     */
+    @GetMapping("/listTags")
+    public Map<String,String> getListTags(@RequestParam("chineseTags") String chineseTags){
+        return esService.getListTags(chineseTags);
+    }
 
 
-
-
-
-
-    /**================================未实现功能=================================*/
-    /**
+    /*================================未实现功能=================================*/
+    /**[需要网页客户端]
      * 搜索框检索时,获取输入拼音,返回相似中文tags
      * @param pinyinTags 拼音
      * @return 中文tags
