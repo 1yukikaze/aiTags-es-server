@@ -27,17 +27,46 @@ public class esService implements IEsService {
     @Value("${esIndex}")
     private String indexName;
 
+    /**
+     * 返回List类型英语tags通用解析方法
+     * @param response 返回的请求
+     * @return list集合
+     */
+    private List<String> responseDispose(SearchResponse response) {
+        List<String> list = new ArrayList<>();
+        //解析响应
+        SearchHits searchHits = response.getHits();
+        //文档数组
+        SearchHit[] hits = searchHits.getHits();
+        //遍历
+        for (SearchHit hit : hits) {
+            // 获取文档source
+            String json = hit.getSourceAsString();
+            JsonDoc jsonDoc = JSON.parseObject(json, JsonDoc.class);
+            //反序列化
+            String englishTag = jsonDoc.getEnglishTag();
+            list.add(englishTag);
+        }
+        return list;
+    }
+
+    /**
+     * 精准查询
+     * @param chineseTags 中文tags
+     * @return 英文tag的List集合
+     */
     @Override
-    public List<String> getTags(String chineseTags) {
-        //判断字符串中是否带有",",如果有为精准查询,拆分字符串,没有则为模糊查询
+    public List<String> getTermTags(String chineseTags) {
+        //判断是否带有逗号作为分割符号
         boolean b = chineseTags.contains(",");
         if ("".equals(chineseTags)) {
-            return null;
-        }
-        if (b) {
+            log.info("输入为空");
+            return List.of("error");
+
+        } else if (b) {
             //精准查询
             String[] tags = chineseTags.split(",");
-            List<String> list = new ArrayList<>();
+            List<String> allList = new ArrayList<>();
             //遍历逐个查询 后续可能会优化
             for (String tag : tags) {
                 try {
@@ -45,52 +74,50 @@ public class esService implements IEsService {
                     request.source().query(QueryBuilders.termQuery("chineseTag", tag));
                     //发送请求
                     SearchResponse response = client.search(request, RequestOptions.DEFAULT);
-                    //解析响应
-                    SearchHits searchHits = response.getHits();
-                    //文档数组
-                    SearchHit[] hits = searchHits.getHits();
-                    // 4.3.遍历
-                    for (SearchHit hit : hits) {
-                        // 获取文档source
-                        String json = hit.getSourceAsString();
-                        JsonDoc jsonDoc = JSON.parseObject(json, JsonDoc.class);
-                        //反序列化
-                        String englishTag = jsonDoc.getEnglishTag();
-                        list.add(englishTag);
-                    }
+
+                    List<String> list = responseDispose(response);
+                    allList.addAll(list);
+                    log.info("精准查询成功,返回结果:" + list);
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
             }
-            log.info("精准查询成功,返回结果:" + list);
-            return list;
+            return allList;
         } else {
-            //模糊查询
-            SearchRequest request = new SearchRequest(indexName);
-            request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags));
-            //发送请求
-            SearchResponse response;
             try {
-                response = client.search(request, RequestOptions.DEFAULT);
+                //只查询单个
+                SearchRequest request = new SearchRequest(indexName);
+                request.source().query(QueryBuilders.termQuery("chineseTag", chineseTags));
+                SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+                List<String> list = responseDispose(response);
+                log.info("精准查询成功,返回结果:" + list);
+                return list;
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            //解析响应
-            SearchHits searchHits = response.getHits();
-            SearchHit[] hits = searchHits.getHits();
-            List<String> list = new ArrayList<>();
-            for (SearchHit hit : hits) {
-                // 获取文档source
-                String json = hit.getSourceAsString();
-                JsonDoc jsonDoc = JSON.parseObject(json, JsonDoc.class);
-                //反序列化
-                String englishTag = jsonDoc.getEnglishTag();
-                list.add(englishTag);
-                log.info("模糊查询成功,返回结果:" + list);
-            }
-            return list;
         }
     }
+
+    /**
+     * 模糊查询 按相关度降序组合字符串
+     * @param chineseTags 中文tags
+     * @return 返回list集合
+     */
+    @Override
+    public List<String> getMatchTags(String chineseTags) {
+        //模糊查询
+        SearchRequest request = new SearchRequest(indexName);
+        request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags));
+        //发送请求
+        SearchResponse response;
+        try {
+            response = client.search(request, RequestOptions.DEFAULT);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return responseDispose(response);
+    }
+
 
     @Override
     public List<String> getSuggestions(String pinyinTags) {
