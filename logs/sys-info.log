@@ -18,3 +18,13 @@
 16:42:07.665 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 16:42:07.934 [http-nio-18899-exec-1] INFO  c.y.w.s.i.esService - [getTermTags,99] - 精准查询成功,返回结果:[day]
 16:42:28.084 [http-nio-18899-exec-2] INFO  c.y.w.s.i.esService - [getListTags,156] - 相关度查询完成,返回结果:{便条簿=notepad, 双胞胎=twins, 变态=pervert, 宝塔=pagoda, 报童帽=cabbie_hat, 抱腿=leg_hug, 标题=title, 白天=day, 鼻涕=snot, 鼻涕泡=nose_bubble}
+17:36:35.671 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 16376 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+17:36:35.675 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+17:36:36.372 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+17:36:36.373 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:36:36.374 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+17:36:36.460 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:36:36.918 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+17:36:36.933 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.551 seconds (process running for 2.206)
+17:36:58.956 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:37:18.724 [http-nio-18899-exec-2] INFO  c.y.w.s.i.esService - [getListTags,156] - 相关度查询完成,返回结果:{军事=military, 拘束=restrained, 教室=classroom, 教师=teacher, 景深(画法)=depth_of_field, 焦散=caustics, 绞首=strangling, 袈裟=kesa, 计数=tally, 驾驶=driving}
