@@ -77,7 +77,7 @@ public class esService implements IEsService {
             for (String tag : tags) {
                 try {
                     SearchRequest request = new SearchRequest(indexName);
-                    request.source().query(QueryBuilders.termQuery("chineseTag", tag));
+                    request.source().query(QueryBuilders.termQuery("chineseTag", tag)).size(30);
                     //发送请求
                     SearchResponse response = client.search(request, RequestOptions.DEFAULT);
 
@@ -114,7 +114,7 @@ public class esService implements IEsService {
     public List<String> getMatchTags(String chineseTags) {
         //模糊查询
         SearchRequest request = new SearchRequest(indexName);
-        request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags));
+        request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags)).size(30);
         //发送请求
         try {
             SearchResponse response = client.search(request, RequestOptions.DEFAULT);
@@ -135,7 +135,7 @@ public class esService implements IEsService {
     @Override
     public Map<String, String> getListTags(String chineseTags) {
         SearchRequest request = new SearchRequest(listIndexName);
-        request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags));
+        request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags)).size(30);
         try {
             SearchResponse response = client.search(request, RequestOptions.DEFAULT);
             Map<String, String> map = new TreeMap<>();
