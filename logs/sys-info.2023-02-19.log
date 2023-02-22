@@ -1,0 +1,17 @@
+21:36:00.435 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 824 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+21:36:00.439 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+21:36:01.135 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+21:36:01.136 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:36:01.136 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+21:36:01.213 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:36:01.780 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+21:36:01.796 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.746 seconds (process running for 3.26)
+22:40:16.929 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStarting,51] - Starting WebuiEsDemoApplicationTests using Java 17.0.6 with PID 19572 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:40:16.932 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:40:18.223 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStarted,57] - Started WebuiEsDemoApplicationTests in 1.528 seconds (process running for 2.468)
+23:57:17.868 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStarting,51] - Starting WebuiEsDemoApplicationTests using Java 17.0.6 with PID 10708 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+23:57:17.872 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+23:57:19.223 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStarted,57] - Started WebuiEsDemoApplicationTests in 1.57 seconds (process running for 2.816)
+23:58:19.061 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStarting,51] - Starting WebuiEsDemoApplicationTests using Java 17.0.6 with PID 25532 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+23:58:19.064 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+23:58:20.563 [main] INFO  c.y.w.WebuiEsDemoApplicationTests - [logStarted,57] - Started WebuiEsDemoApplicationTests in 1.746 seconds (process running for 2.801)

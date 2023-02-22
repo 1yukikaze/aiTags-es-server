@@ -43,7 +43,7 @@ class DocumentTest {
     void testAddDocument() throws IOException {
         Properties prop = new Properties();
         //IO流获取文件
-        InputStream inputStream = new FileInputStream("src/test/resources/prop.properties");
+        InputStream inputStream = new FileInputStream("src/test/resources/Tags1.0.properties");
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
         prop.load(inputStreamReader);
         //测试

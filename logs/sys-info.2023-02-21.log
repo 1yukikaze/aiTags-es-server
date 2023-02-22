@@ -1,0 +1,98 @@
+01:07:31.529 [main] INFO  c.y.w.IndexTest - [logStarting,51] - Starting IndexTest using Java 17.0.6 with PID 41952 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:07:31.537 [main] INFO  c.y.w.IndexTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:07:33.047 [main] INFO  c.y.w.IndexTest - [logStarted,57] - Started IndexTest in 1.825 seconds (process running for 3.344)
+01:08:06.686 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 47176 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:08:06.691 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:08:08.194 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.808 seconds (process running for 3.24)
+01:22:10.154 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 32616 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:22:10.157 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:22:12.007 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 2.111 seconds (process running for 3.221)
+01:29:58.021 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 56732 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:29:58.024 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:29:59.420 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.63 seconds (process running for 2.953)
+01:31:57.500 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 3916 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:31:57.503 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:31:58.150 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+01:31:58.150 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+01:31:58.151 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+01:31:58.256 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+01:31:58.735 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+01:31:58.750 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.519 seconds (process running for 2.193)
+01:37:48.837 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 50140 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:37:48.841 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:37:50.295 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.685 seconds (process running for 3.053)
+01:50:45.531 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 54520 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:50:45.534 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:50:46.949 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.642 seconds (process running for 2.739)
+01:54:55.264 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 57188 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+01:54:55.267 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+01:54:56.931 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.888 seconds (process running for 2.963)
+02:04:40.624 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 52616 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+02:04:40.627 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+02:04:41.973 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.564 seconds (process running for 2.805)
+02:10:17.980 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 57736 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+02:10:17.985 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+02:10:20.414 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 2.812 seconds (process running for 3.866)
+02:20:36.957 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:20:37.415 [http-nio-18899-exec-1] INFO  c.y.w.s.i.esService - [getTags,65] - 精准查询成功,返回结果:[day, night]
+15:40:54.012 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 2988 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+15:40:54.016 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+15:40:54.714 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+15:40:54.714 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:40:54.715 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+15:40:54.797 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:40:55.275 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+15:40:55.290 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.686 seconds (process running for 2.524)
+15:41:27.154 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:42:47.960 [http-nio-18899-exec-4] INFO  c.y.w.s.i.esService - [getTermTags,92] - 精准查询成功,返回结果:[day]
+15:42:50.826 [http-nio-18899-exec-3] INFO  c.y.w.s.i.esService - [getTermTags,92] - 精准查询成功,返回结果:[day]
+15:42:59.217 [http-nio-18899-exec-2] INFO  c.y.w.s.i.esService - [getTermTags,79] - 精准查询成功,返回结果:[day]
+15:42:59.246 [http-nio-18899-exec-2] INFO  c.y.w.s.i.esService - [getTermTags,79] - 精准查询成功,返回结果:[night]
+16:23:45.709 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 13708 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+16:23:45.714 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+16:23:46.320 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+16:23:46.321 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:23:46.321 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+16:23:46.404 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:23:46.882 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+16:23:46.898 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.48 seconds (process running for 2.084)
+16:23:50.613 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:23:50.888 [http-nio-18899-exec-1] INFO  c.y.w.s.i.esService - [getMatchTags,120] - 模糊查询成功,返回结果:[loli, small breasts, breast_feeding]
+16:24:21.900 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 6084 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+16:24:21.903 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+16:24:22.576 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+16:24:22.577 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:24:22.577 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+16:24:22.657 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:24:23.113 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+16:24:23.128 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.551 seconds (process running for 2.224)
+16:25:19.229 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 3176 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+16:25:19.231 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+16:25:19.854 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+16:25:19.855 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:25:19.855 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+16:25:19.948 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:25:20.384 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+16:25:20.399 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.472 seconds (process running for 2.089)
+16:25:35.351 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:25:35.648 [http-nio-18899-exec-1] INFO  c.y.w.s.i.esService - [getListTags,154] - 相关度查询完成,返回结果:{喂奶(小)=breast_feeding, 小=small breasts, 萝莉=loli}
+16:27:49.685 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 16264 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+16:27:49.689 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+16:27:50.408 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
+16:27:50.408 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:27:50.409 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
+16:27:50.490 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:27:50.983 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
+16:27:51.001 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.655 seconds (process running for 2.365)
+16:58:18.024 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:58:18.216 [http-nio-18899-exec-1] INFO  c.y.w.s.i.esService - [getTermTags,97] - 精准查询成功,返回结果:[]
+16:58:54.252 [http-nio-18899-exec-2] INFO  c.y.w.s.i.esService - [getTermTags,97] - 精准查询成功,返回结果:[cat_ears]
+16:59:20.201 [http-nio-18899-exec-3] INFO  c.y.w.s.i.esService - [getTermTags,84] - 精准查询成功,返回结果:[cat_ears]
+16:59:20.224 [http-nio-18899-exec-3] INFO  c.y.w.s.i.esService - [getTermTags,84] - 精准查询成功,返回结果:[dog_ears]
+17:01:19.424 [http-nio-18899-exec-5] INFO  c.y.w.s.i.esService - [getTermTags,97] - 精准查询成功,返回结果:[cat_ears]
+17:03:49.268 [http-nio-18899-exec-7] INFO  c.y.w.s.i.esService - [getTermTags,97] - 精准查询成功,返回结果:[]
+17:03:59.835 [http-nio-18899-exec-8] INFO  c.y.w.s.i.esService - [getMatchTags,120] - 模糊查询成功,返回结果:[dog_ears, cat_ears]
+17:04:09.427 [http-nio-18899-exec-9] INFO  c.y.w.s.i.esService - [getMatchTags,120] - 模糊查询成功,返回结果:[day, cat_ears]
+17:04:13.490 [http-nio-18899-exec-10] INFO  c.y.w.s.i.esService - [getMatchTags,120] - 模糊查询成功,返回结果:[day, cat_ears]
+17:04:19.463 [http-nio-18899-exec-1] INFO  c.y.w.s.i.esService - [getMatchTags,120] - 模糊查询成功,返回结果:[dog_ears, day, cat_ears]
+17:06:23.118 [http-nio-18899-exec-3] INFO  c.y.w.s.i.esService - [getListTags,154] - 相关度查询完成,返回结果:{狗耳=dog_ears, 猫耳=cat_ears, 白天=day}
