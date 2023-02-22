@@ -12,6 +12,7 @@ import org.elasticsearch.common.xcontent.XContentType;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.FileInputStream;
@@ -27,10 +28,12 @@ import java.util.UUID;
 class DocumentTest {
     public RestHighLevelClient client;
 
+    @Value("${esHttp}")//接入搜索引擎的地址
+    private String esHttp;
     @BeforeEach
     public void setUp() {
         this.client = new RestHighLevelClient(RestClient.builder(
-                HttpHost.create("http://124.223.0.216:9200")
+                HttpHost.create(esHttp)
         ));
     }
 
@@ -39,11 +42,18 @@ class DocumentTest {
         this.client.close();
     }
 
+    /**
+     * 数据导入索引库的方法
+     */
+    @Value("src/test/resources/Tags1.0.properties")//要传入的文件地址
+    private String propInputStream;
+    @Value("list_es_translation_index")//要传入的索引库
+    private String index;
     @Test//读取prop添加文件
     void testAddDocument() throws IOException {
         Properties prop = new Properties();
         //IO流获取文件
-        InputStream inputStream = new FileInputStream("src/test/resources/Tags1.0.properties");
+        InputStream inputStream = new FileInputStream(propInputStream);
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
         prop.load(inputStreamReader);
         //测试
@@ -59,7 +69,7 @@ class DocumentTest {
             //测试
             System.out.println(translationDoc);
 
-            request.add(new IndexRequest("es_translation_index")
+            request.add(new IndexRequest(index)
                             .id(UUID.randomUUID().toString())
                             .source(JSON.toJSONString(translationDoc), XContentType.JSON));
         }

@@ -26,9 +26,11 @@ import java.util.TreeMap;
 public class esService implements IEsService {
     @Autowired
     private RestHighLevelClient client;
-    @Value("${esIndex}")
-    private String indexName;
 
+    @Value("${esIndex}")//termTags与matchTags接口查询索引库
+    private String indexName;
+    @Value("${listEsIndex}")//ListTags接口列表查询索引库
+    private String listIndexName;
     /**
      * 返回List类型英语tags通用解析方法
      *
@@ -132,7 +134,7 @@ public class esService implements IEsService {
      */
     @Override
     public Map<String, String> getListTags(String chineseTags) {
-        SearchRequest request = new SearchRequest(indexName);
+        SearchRequest request = new SearchRequest(listIndexName);
         request.source().query(QueryBuilders.matchQuery("chineseTag", chineseTags));
         try {
             SearchResponse response = client.search(request, RequestOptions.DEFAULT);
