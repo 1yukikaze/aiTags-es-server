@@ -1,23 +1,12 @@
-10:05:31.121 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarting,51] - Starting WebuiEsDemoApplication using Java 17.0.6 with PID 17368 (D:\MyProjects\spring_cloud\webui-es-demo\target\classes started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
-10:05:31.127 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
-10:05:31.776 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-18899"]
-10:05:31.776 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-10:05:31.776 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/10.1.5]
-10:05:31.870 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-10:05:32.375 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-18899"]
-10:05:32.392 [main] INFO  c.y.w.WebuiEsDemoApplication - [logStarted,57] - Started WebuiEsDemoApplication in 1.585 seconds (process running for 2.324)
-10:06:21.078 [http-nio-18899-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-10:09:36.758 [thread-execute1] INFO  c.y.w.s.i.esService - [getTermTags,99] - 精准查询成功,返回结果:[]
-10:09:51.908 [thread-execute2] INFO  c.y.w.s.i.esService - [getTermTags,99] - 精准查询成功,返回结果:[]
-10:09:52.117 [thread-execute1] INFO  c.y.w.s.i.esService - [getTermTags,99] - 精准查询成功,返回结果:[]
-10:10:36.493 [thread-execute2] INFO  c.y.w.s.i.esService - [getListTags,156] - 相关度查询完成,返回结果:{}
-10:10:47.657 [thread-execute1] INFO  c.y.w.s.i.esService - [getListTags,156] - 相关度查询完成,返回结果:{白天=day}
-10:11:28.101 [thread-execute2] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[]
-10:11:32.537 [thread-execute1] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
-10:11:37.494 [thread-execute2] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
-10:11:50.329 [thread-execute1] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
-10:11:50.499 [thread-execute2] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
-10:11:50.594 [thread-execute1] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
-10:11:50.732 [thread-execute2] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
-10:11:50.880 [thread-execute1] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
-10:11:51.031 [thread-execute2] INFO  c.y.w.s.i.esService - [getMatchTags,122] - 模糊查询成功,返回结果:[day]
+21:40:00.249 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 34928 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+21:40:00.256 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+21:40:01.750 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.847 seconds (process running for 3.052)
+21:41:04.177 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 10280 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+21:41:04.180 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+21:41:05.650 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.738 seconds (process running for 2.831)
+22:23:30.902 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 26284 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:23:30.904 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:23:32.293 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.651 seconds (process running for 2.706)
+22:24:17.732 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 19900 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:24:17.735 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:24:19.270 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.8 seconds (process running for 2.924)

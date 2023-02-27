@@ -45,7 +45,7 @@ class DocumentTest {
     /**
      * 数据导入索引库的方法
      */
-    @Value("src/test/resources/Tags1.0.properties")//要传入的文件地址
+    @Value("src/test/resources/Tags2.0.properties")//要传入的文件地址
     private String propInputStream;
     @Value("list_es_translation_index")//要传入的索引库
     private String index;
