@@ -1,6 +1,6 @@
 # aiTags-es-server
 
-基于java与elasticsearch引擎提供的ai绘图中文tag检索服务端系统
+基于java与elasticsearch引擎提供的ai绘图中文tag检索系统
 
 ## 运行环境
 
