@@ -1,0 +1,30 @@
+21:40:00.249 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 34928 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+21:40:00.256 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+21:40:01.750 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.847 seconds (process running for 3.052)
+21:41:04.177 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 10280 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+21:41:04.180 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+21:41:05.650 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.738 seconds (process running for 2.831)
+22:23:30.902 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 26284 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:23:30.904 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:23:32.293 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.651 seconds (process running for 2.706)
+22:24:17.732 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 19900 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:24:17.735 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:24:19.270 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.8 seconds (process running for 2.924)
+22:55:20.920 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 27612 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:55:20.924 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:55:22.545 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.977 seconds (process running for 3.114)
+22:55:59.485 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 21788 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:55:59.492 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:56:01.197 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 2.043 seconds (process running for 3.82)
+22:56:54.822 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 29348 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:56:54.827 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:56:56.346 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.805 seconds (process running for 3.292)
+22:57:16.177 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 12212 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+22:57:16.180 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+22:57:17.942 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 2.086 seconds (process running for 3.329)
+23:05:26.202 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 2704 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+23:05:26.206 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+23:05:27.884 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 1.951 seconds (process running for 3.209)
+23:06:02.150 [main] INFO  c.y.w.DocumentTest - [logStarting,51] - Starting DocumentTest using Java 17.0.6 with PID 15696 (started by Yukikaze in D:\MyProjects\spring_cloud\webui-es-demo)
+23:06:02.155 [main] INFO  c.y.w.DocumentTest - [logStartupProfileInfo,630] - No active profile set, falling back to 1 default profile: "default"
+23:06:03.907 [main] INFO  c.y.w.DocumentTest - [logStarted,57] - Started DocumentTest in 2.054 seconds (process running for 3.196)

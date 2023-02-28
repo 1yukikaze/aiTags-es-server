@@ -1,10 +1,10 @@
-PUT /es_translation_index
+PUT /list_es_translation_index
 {
   "settings": {
     "analysis": {
       "analyzer": {
         "text_analysis":{
-          "tokenizer": "ik_smart",
+          "tokenizer": "ik_max_word",
           "filter": "py"
         },
         "completion_analyzer": {
@@ -31,7 +31,7 @@ PUT /es_translation_index
         "type": "text",
         "index": true,
         "analyzer": "text_analysis",
-        "search_analyzer": "ik_max_word"
+        "search_analyzer": "ik_smart"
       },
       "englishTag":{
         "type": "keyword",

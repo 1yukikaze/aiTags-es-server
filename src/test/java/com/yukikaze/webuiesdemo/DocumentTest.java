@@ -45,9 +45,9 @@ class DocumentTest {
     /**
      * 数据导入索引库的方法
      */
-    @Value("src/test/resources/Tags2.0.properties")//要传入的文件地址
+    @Value("src/test/resources/Tags3.0.properties")//要传入的文件地址
     private String propInputStream;
-    @Value("es_translation_index")//要传入的索引库
+    @Value("list_es_translation_index")//要传入的索引库
     private String index;
     @Test//读取prop添加文件
     void testAddDocument() throws IOException {
